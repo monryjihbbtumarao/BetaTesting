@@ -22,6 +22,7 @@ body{
     backdrop-filter: blur(6px);
     border: 1px solid rgba(225, 225, 225, 0.18);*/
     background-color: rgb(29, 27, 27);
+    box-shadow: 2px 3px 8px #256986;
     position: fixed;
     color: #fff;
     top: 0%;
@@ -192,8 +193,14 @@ footer{
     margin-left: 290px;
     text-align: center;
 }
+.right2 h2{
+    color: #149ddd;
+    margin-left: 15px;
+}
 .right2{
+    background-color: rgb(29, 27, 27);
     margin-top: 0;
+    color: white;
     margin-left: 290px;
 }
 .back{
@@ -203,6 +210,7 @@ footer{
 .about_image{
     display: inline-flex;
     padding-right: 12px;
+    margin-left: 15px;
 }
 .text{
     margin-left: 20px;
@@ -290,5 +298,8 @@ footer{
         display: block;
         margin-right: 0;
         padding-right: 0;
+    }
+    .about_image img{
+        width: 100%;
     }
 }
